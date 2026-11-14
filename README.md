@@ -26,3 +26,4 @@ xor.py trains a network on xor data. How original!
 
 other files: theyre for something but ive forgotten at this point
 
+images directory shows the project working.
