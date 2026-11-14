@@ -73,14 +73,13 @@ class Matrix:
         if self.shape != other.shape:
             raise ValueError(f"Shape mismatch for addition: {self.shape} vs {other.shape}")
 
-        # Loop through rows on the outer loop to match standard memory layout
+        # Loop through rows then collumns
         for r in range(self.rows):
             self_row = self.data[r]
             other_row = other.data[r]
             for c in range(self.cols):
                 self_row[c] += other_row[c]
                 
-        # CRITICAL: Return self so Python doesn't overwrite your variable with None
         return self
         
 
