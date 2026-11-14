@@ -2,7 +2,7 @@
 Codebase for my COP 1500 Introduction to computer science final project
 
 
-NOTE: Do not assume all functions in the matrix file or in the vetor file work. I am yet to have tested all of them and simply debugged the ones used in the layer aned network files.
+NOTE: Do not assume all functions in the matrix file or in the vetor file work. I am yet to have tested all of them and simply debugged the ones used in the layer aned network files. THIS ISN'T A FUNCTIONAL MATRIX LIBRARY. The point of this project is the write a NEURAL NETWORK library, NOT a matrix library. please dont be upset is some of the matrix functions a janky :)
 
 Files and descriptions:
 
